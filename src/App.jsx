@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <h1>Chai or React</h1>
-      <h2>Counter value : {count}</h2>
+      <h2>value : {count}</h2>
 
       <button id="increase" onClick={increment}>
         increase Count
@@ -33,7 +33,6 @@ function App() {
       <button id="decrease" onClick={decrement}>
         Decrease Count
       </button>
-      <p>Couning the value : {count}</p>
     </>
   );
 }
